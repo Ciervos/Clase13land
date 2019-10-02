@@ -1,3 +1,28 @@
+.b {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
+
+.but1 {
+  background-color: black;
+  height: 60px;
+  width: 100px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.botonesgeneral {
+  border: 0.5px solid white;
+  color: white;
+  border-radius: 5px;
+  transition: background-color 1s linear;
+}
+.botonesgeneral:hover {
+  background-color: white;
+  color: black;
+}
+
 body {
   font-family: "Lato", sans-serif;
   background-color: black;

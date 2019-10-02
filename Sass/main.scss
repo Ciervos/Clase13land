@@ -1,5 +1,6 @@
 @import 'common/variable';
 @import 'common/mixins';
+@import 'components/button';
 
 body{
     font-family: $font;
@@ -23,3 +24,4 @@ body{
     width: 100vw;
     height: auto;
 }
+
