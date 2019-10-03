@@ -1,3 +1,5 @@
+@mixin mediaq {
 @media (min-width: 767px) {
-    
+    @content   
+}
 }
