@@ -1,6 +1,4 @@
-@import 'common/variable';
-@import 'common/mixins';
-@import 'components/button';
+@import 'common/all';
 
 body{
     font-family: $font;
@@ -25,3 +23,20 @@ body{
     height: auto;
 }
 
+h1{
+    display: inline-block;
+    margin: 7px;
+    padding: 5px;
+}
+#menu{
+    padding: 0;
+    
+     li
+     {display: inline;
+    }
+}
+
+.generalcontent
+{
+   margin: 25px;
+}

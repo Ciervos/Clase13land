@@ -23,6 +23,14 @@
   color: black;
 }
 
+.feaitem {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  width: 30%;
+}
+
 body {
   font-family: "Lato", sans-serif;
   background-color: black;
@@ -44,6 +52,23 @@ body {
   flex-direction: row;
   width: 100vw;
   height: auto;
+}
+
+h1 {
+  display: inline-block;
+  margin: 7px;
+  padding: 5px;
+}
+
+#menu {
+  padding: 0;
+}
+#menu li {
+  display: inline;
+}
+
+.generalcontent {
+  margin: 25px;
 }
 
 /*# sourceMappingURL=main.css.map */
