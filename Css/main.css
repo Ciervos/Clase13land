@@ -18,6 +18,7 @@
   display: flex;
   justify-content: center;
   margin: 25px;
+  padding-left: 20px;
 }
 
 .but1 {
@@ -53,47 +54,8 @@
   position: relative;
   margin: 20px;
 }
-.feaitem .uno {
-  background: url("../img/001.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  height: 35vh;
-}
-.feaitem .dos {
-  background: url("../img/002.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  height: 35vh;
-}
-.feaitem .tres {
-  background: url("../img/003.jpeg") no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  height: 35vh;
-}
-.feaitem .cuatro {
-  background: url("../img/004.jpg") no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  height: 35vh;
-}
-.feaitem .cinco {
-  background: url("../img/005.jpeg") no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  height: 35vh;
-}
-.feaitem .seis {
-  background: url("../img/006.jpeg") no-repeat;
-  background-size: cover;
-  background-position: center;
-  display: flex;
-  height: 35vh;
+.feaitem img {
+  height: 75%;
 }
 .feaitem .stars {
   background: url("../img/stars.jpg") no-repeat;

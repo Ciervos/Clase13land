@@ -13,54 +13,12 @@
  position: relative;
  margin: 20px;
 
- .uno
-{
-    background: url("../img/001.jpg") no-repeat;
-    background-size: cover;
-    background-position: center; 
-    display: flex;
-    height: 35vh;   
-}
-.dos
-{
-    background: url("../img/002.jpg") no-repeat;
-    background-size: cover;
-    background-position: center; 
-    display: flex;
-    height: 35vh;   
-}
-.tres
-{
-    background: url("../img/003.jpeg") no-repeat;
-    background-size: cover;
-    background-position: center; 
-    display: flex;
-    height: 35vh;   
-}
-.cuatro
-{
-    background: url("../img/004.jpg") no-repeat;
-    background-size: cover;
-    background-position: center; 
-    display: flex;
-    height: 35vh;   
-}
-.cinco
-{
-    background: url("../img/005.jpeg") no-repeat;
-    background-size: cover;
-    background-position: center; 
-    display: flex;
-    height: 35vh;   
-}
-.seis
-{
-    background: url("../img/006.jpeg") no-repeat;
-    background-size: cover;
-    background-position: center; 
-    display: flex;
-    height: 35vh;   
-}
+img {
+    
+    height: 75%;
+} 
+
+ 
 .stars
 {
   background: url("../img/stars.jpg")  no-repeat;
