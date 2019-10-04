@@ -44,23 +44,58 @@
   display: flex;
   flex-direction: column;
   height: 300px;
-  width: 40%;
+  min-width: 250px;
+  max-width: 300px;
   overflow: hidden;
   color: rgba(0, 0, 0, 0.5);
   font-weight: 395;
   font-size: 18px;
   position: relative;
+  margin: 20px;
 }
-
-.uno {
+.feaitem .uno {
   background: url("../img/001.jpg") no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
-  height: 40vh;
+  height: 35vh;
 }
-
-.stars {
+.feaitem .dos {
+  background: url("../img/002.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 35vh;
+}
+.feaitem .tres {
+  background: url("../img/003.jpeg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 35vh;
+}
+.feaitem .cuatro {
+  background: url("../img/004.jpg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 35vh;
+}
+.feaitem .cinco {
+  background: url("../img/005.jpeg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 35vh;
+}
+.feaitem .seis {
+  background: url("../img/006.jpeg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 35vh;
+}
+.feaitem .stars {
   background: url("../img/stars.jpg") no-repeat;
   background-size: cover;
   background-position: 0px -35px;
@@ -69,17 +104,15 @@
   position: absolute;
   bottom: 0px;
 }
-
-.nombreitem {
+.feaitem .nombreitem {
   position: absolute;
   left: 5px;
-  bottom: 30px;
+  bottom: 40px;
 }
-
-.precio {
+.feaitem .precio {
   position: absolute;
   right: 5px;
-  bottom: 30px;
+  bottom: 40px;
 }
 
 body {
@@ -104,6 +137,12 @@ h1 {
 
 .generalcontent {
   margin: 25px;
+}
+
+.c h2, .d h2 {
+  font-size: 36px;
+  display: flex;
+  text-align: center;
 }
 
 /*# sourceMappingURL=main.css.map */
