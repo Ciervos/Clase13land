@@ -5,20 +5,26 @@
  flex-direction: column;
  height: 300px;
  min-width: 250px;
- max-width: 300px;
-  overflow: hidden;
+ max-width: 400px;
+ overflow: hidden;
  color: $gris;
  font-weight: 395;
  font-size: 18px;
  position: relative;
  margin: 20px;
+ width: 50%; 
 
 img {
-    
-    height: 75%;
+  width: 100%;  
 } 
 
- 
+.imgfcont{
+  height: 220px;
+  overflow: hidden;
+}
+
+
+
 .stars
 {
   background: url("../img/stars.jpg")  no-repeat;

@@ -46,16 +46,21 @@
   flex-direction: column;
   height: 300px;
   min-width: 250px;
-  max-width: 300px;
+  max-width: 400px;
   overflow: hidden;
   color: rgba(0, 0, 0, 0.5);
   font-weight: 395;
   font-size: 18px;
   position: relative;
   margin: 20px;
+  width: 50%;
 }
 .feaitem img {
-  height: 75%;
+  width: 100%;
+}
+.feaitem .imgfcont {
+  height: 220px;
+  overflow: hidden;
 }
 .feaitem .stars {
   background: url("../img/stars.jpg") no-repeat;
@@ -75,6 +80,64 @@
   position: absolute;
   right: 5px;
   bottom: 40px;
+}
+
+.browcont {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  max-width: 700px;
+  min-width: 100px;
+}
+
+#shoes {
+  background: url(../img/shoes.jpg);
+  display: flex;
+  height: 250px;
+  min-width: 150px;
+  max-width: 450px;
+  width: 50%;
+}
+#shoes:hover {
+  box-shadow: 0px 0px 10px white;
+}
+
+#jeans {
+  background: url(../img/jeans.jpeg);
+  display: flex;
+  height: 360px;
+  min-width: 150px;
+  max-width: 210px;
+  width: 50%;
+}
+#jeans:hover {
+  box-shadow: 0px 0px 10px white;
+}
+
+#shirts {
+  background: url(../img/shirts.jpg);
+  display: flex;
+  height: 360px;
+  min-width: 150px;
+  max-width: 210px;
+  width: 50%;
+}
+#shirts:hover {
+  box-shadow: 0px 0px 10px white;
+}
+
+#outfits {
+  background: url(../img/outfits.jpg);
+  display: flex;
+  height: 640px;
+  min-width: 150px;
+  max-width: 210px;
+  width: 50%;
+}
+#outfits:hover {
+  box-shadow: 0px 0px 10px white;
 }
 
 body {
@@ -101,10 +164,20 @@ h1 {
   margin: 25px;
 }
 
+.c, .d {
+  display: inline-block;
+  text-align: center;
+}
 .c h2, .d h2 {
   font-size: 36px;
+}
+
+.feacont {
+  flex-wrap: wrap;
   display: flex;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
 }
 
 /*# sourceMappingURL=main.css.map */

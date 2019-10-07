@@ -26,11 +26,20 @@ h1{
 }
 
 .c,.d {
-
+    display: inline-block;
+    text-align: center;
+    
     h2
     {
         font-size: 36px;
-        display: flex;
-        text-align: center;
     }
 }
+
+.feacont{
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+   }
+
