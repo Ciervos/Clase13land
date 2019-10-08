@@ -15,15 +15,17 @@
     width: 470px;
 }
 
-.righties{
+.rightie{
     display: flex;
     flex-flow: column wrap;
-    width: 210px;
+    width: 30%;
 }
 
 #shoes
 {
   background: url(../img/shoes.jpg);
+  background-size: 450px;
+  background-position: center;
   display: flex;
   height: 250px;
   min-width: 150px;  
@@ -37,6 +39,8 @@
 #jeans
 {
   background: url(../img/jeans.jpeg);  
+  background-size: 550px;
+  background-position: center;
   display: flex;
   height: 360px;
   min-width: 150px;
@@ -49,7 +53,9 @@
 
 #shirts
 {
-  background: url(../img/shirts.jpg);  
+  background: url(../img/shirts.jpg) no-repeat;  
+  background-size: 550px;
+  background-position: center;
   display: flex;
   height: 360px;
   min-width: 150px;
@@ -63,14 +69,29 @@
 
 #outfits
 {
-  background: url(../img/outfits.jpg);
+  background: url(../img/outfits.jpg) no-repeat;
+  background-size: 370px;
+  background-position: center;
   display: flex;
   height: 640px;
   min-width: 150px;
-  max-width: 210px;  
-  width: 50%;
+  max-width: 510px;  
+  width: 90%;
   &:hover
 {
   box-shadow: $sombri;
 }
+}
+
+.textconten{
+
+  display: inline-block;
+  text-align: center; 
+  width: 100%;
+  padding: 15px;
+}
+.browsenames
+{ 
+  font-size: 32px;
+  font-weight: 900;
 }
