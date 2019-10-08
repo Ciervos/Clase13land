@@ -182,7 +182,6 @@
 }
 
 .e {
-  height: 600px;
   width: 100%;
   background-color: #1a1a1a;
   padding: 10px;
@@ -210,6 +209,7 @@
 .septimocuartodiv img {
   display: flex;
   height: 250px;
+  margin-top: 25px;
 }
 .septimocuartodiv a {
   display: inline-block;
