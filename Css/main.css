@@ -173,9 +173,20 @@
 }
 
 .e {
-  height: 400px;
+  height: 450px;
   width: 100%;
   background-color: #1a1a1a;
+  padding: 10px;
+}
+.e .titulofoot {
+  text-align: center;
+}
+
+.septimocuartodiv {
+  display: flex;
+  flex-flow: column wrap;
+  width: 100%;
+  height: 200px;
 }
 
 body {
